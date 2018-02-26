@@ -631,3 +631,362 @@ Login Time   : 20:50:48 UTC Sun Feb 25 2018
 Duration     : 0h:29m:12s
 ciscoasa# 
 2018-02-26 14:33:35 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-02-26 16:02:09 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 16:02:11 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 16:02:11 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 16:02:11 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 16:02:11 com.wulei.utils.SwitchSSHUtils-INFO :  conf t
+ciscoasa(config)# 
+2018-02-26 16:02:13 com.wulei.utils.SwitchSSHUtils-INFO :  show run | grep flow-export
+flow-export destination inside 10.30.2.135 2055
+flow-export destination inside 10.30.2.91 2055
+flow-export destination inside 10.30.2.99 2055
+flow-export destination inside 10.30.2.115 2055
+  flow-export event-type all destination 10.30.2.91 10.30.2.99 10.30.2.135 10.30.2.115
+ciscoasa(config)# 
+2018-02-26 16:02:34 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 16:02:37 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 16:02:37 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 16:02:37 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 16:02:37 com.wulei.utils.SwitchSSHUtils-INFO :  conf t
+ciscoasa(config)# 
+2018-02-26 16:02:39 com.wulei.utils.SwitchSSHUtils-INFO :  show run | grep flow-export
+flow-export destination inside 10.30.2.135 2055
+flow-export destination inside 10.30.2.91 2055
+flow-export destination inside 10.30.2.99 2055
+flow-export destination inside 10.30.2.115 2055
+  flow-export event-type all destination 10.30.2.91 10.30.2.99 10.30.2.135 10.30.2.115
+ciscoasa(config)# 
+2018-02-26 16:02:42 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-02-26 16:03:14 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 16:03:16 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 16:03:16 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 16:03:16 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 16:03:16 com.wulei.utils.SwitchSSHUtils-INFO :  conf t
+ciscoasa(config)# 
+2018-02-26 16:03:18 com.wulei.utils.SwitchSSHUtils-INFO :  show run | grep flow-export
+flow-export destination inside 10.30.2.135 2055
+flow-export destination inside 10.30.2.91 2055
+flow-export destination inside 10.30.2.99 2055
+flow-export destination inside 10.30.2.115 2055
+  flow-export event-type all destination 10.30.2.91 10.30.2.99 10.30.2.135 10.30.2.115
+ciscoasa(config)# 
+2018-02-26 16:03:21 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-02-26 16:07:03 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 16:07:25 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 16:07:57 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}enExpect operation fails (timeout: 30000 ms) for matcher: regexp('Password:')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('Password:')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.ASANetFlow.main(ASANetFlow.java:26)
+2018-02-26 16:07:57 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-02-26 16:08:27 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}w^14cbsWITLExpect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.ASANetFlow.main(ASANetFlow.java:27)
+2018-02-26 16:08:27 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-02-26 16:08:57 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}terminal pager 0Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.ASANetFlow.main(ASANetFlow.java:28)
+2018-02-26 16:08:57 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-02-26 16:09:27 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}conf tExpect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.ASANetFlow.main(ASANetFlow.java:29)
+2018-02-26 16:09:27 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-02-26 16:11:19 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 16:11:51 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}enExpect operation fails (timeout: 30000 ms) for matcher: regexp('Password:')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('Password:')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.ASANetFlow.main(ASANetFlow.java:26)
+2018-02-26 16:11:51 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-02-26 16:12:21 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}w^14cbsWITLExpect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.ASANetFlow.main(ASANetFlow.java:27)
+2018-02-26 16:12:21 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-02-26 16:12:35 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 16:12:38 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 16:12:38 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 16:12:38 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 16:12:38 com.wulei.utils.SwitchSSHUtils-INFO :  conf t
+ciscoasa(config)# 
+2018-02-26 16:12:40 com.wulei.utils.SwitchSSHUtils-INFO :  show run | grep flow-export
+flow-export destination inside 10.30.2.135 2055
+flow-export destination inside 10.30.2.91 2055
+flow-export destination inside 10.30.2.99 2055
+flow-export destination inside 10.30.2.115 2055
+  flow-export event-type all destination 10.30.2.91 10.30.2.99 10.30.2.135 10.30.2.115
+ciscoasa(config)# 
+2018-02-26 16:12:43 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-02-26 16:12:51 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}terminal pager 0Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.ASANetFlow.main(ASANetFlow.java:28)
+2018-02-26 16:12:51 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-02-26 16:13:21 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}conf tExpect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.ASANetFlow.main(ASANetFlow.java:29)
+2018-02-26 16:13:21 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-02-26 16:13:33 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 16:13:35 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 16:13:35 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 16:13:35 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 16:13:35 com.wulei.utils.SwitchSSHUtils-INFO :  conf t
+ciscoasa(config)# 
+2018-02-26 16:13:37 com.wulei.utils.SwitchSSHUtils-INFO :  show run | grep flow-export
+flow-export destination inside 10.30.2.135 2055
+flow-export destination inside 10.30.2.91 2055
+flow-export destination inside 10.30.2.99 2055
+flow-export destination inside 10.30.2.115 2055
+  flow-export event-type all destination 10.30.2.91 10.30.2.99 10.30.2.135 10.30.2.115
+ciscoasa(config)# 
+2018-02-26 16:13:40 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-02-26 16:13:53 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}show run | grep flow-exportExpect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.ASANetFlow.main(ASANetFlow.java:30)
+2018-02-26 16:13:53 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-02-26 16:13:56 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-02-26 16:15:08 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 16:15:10 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 16:15:10 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 16:15:10 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 16:15:10 com.wulei.utils.SwitchSSHUtils-INFO :  conf t
+ciscoasa(config)# 
+2018-02-26 16:15:10 com.wulei.utils.SwitchSSHUtils-INFO :  show run | grep flow
+2018-02-26 16:15:13 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-02-26 16:15:54 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 16:15:56 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 16:15:56 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 16:15:56 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 16:15:56 com.wulei.utils.SwitchSSHUtils-INFO :  conf t
+ciscoasa(config)# 
+2018-02-26 16:15:58 com.wulei.utils.SwitchSSHUtils-INFO :  show run | grep flow-export
+flow-export destination inside 10.30.2.135 2055
+flow-export destination inside 10.30.2.91 2055
+flow-export destination inside 10.30.2.99 2055
+flow-export destination inside 10.30.2.115 2055
+  flow-export event-type all destination 10.30.2.91 10.30.2.99 10.30.2.135 10.30.2.115
+ciscoasa(config)# 
+2018-02-26 16:16:01 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-02-26 17:55:37 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 17:55:39 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 17:55:39 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 17:55:39 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 17:55:39 com.wulei.utils.SwitchSSHUtils-INFO :  conf t
+ciscoasa(config)# 
+2018-02-26 17:55:43 com.wulei.utils.SwitchSSHUtils-INFO :  show run | grep flow-export
+flow-export destination inside 10.30.2.95 2055
+flow-export destination inside 10.30.2.135 2055
+flow-export destination inside 10.30.2.91 2055
+flow-export destination inside 10.30.2.99 2055
+flow-export destination inside 10.30.2.115 2055
+  flow-export event-type all destination 10.30.2.91 10.30.2.99 10.30.2.135 10.30.2.115 10.30.2.95
+ciscoasa(config)# 
+2018-02-26 17:55:45 com.wulei.utils.SwitchSSHUtils-INFO :  flow-export destination inside 10.30.2.5 2055
+ERROR: A maximum of 5 flow-export destinations can be configured
+ciscoasa(config)# 
+2018-02-26 17:55:45 com.wulei.utils.SwitchSSHUtils-INFO :  class-map netflow
+ciscoasa(config-cmap)# 
+2018-02-26 17:55:45 com.wulei.utils.SwitchSSHUtils-INFO :  match access-list EC
+ciscoasa(config-cmap)# 
+2018-02-26 17:55:45 com.wulei.utils.SwitchSSHUtils-INFO :  policy-map netflow
+ciscoasa(config-pmap)# 
+2018-02-26 17:55:45 com.wulei.utils.SwitchSSHUtils-INFO :  class netflow
+ciscoasa(config-pmap-c)# 
+2018-02-26 17:55:45 com.wulei.utils.SwitchSSHUtils-INFO :  flow-export event-type all destination  10.30.2.5
+ERROR: flow-export destination with IP address 10.30.2.5 not found
+ciscoasa(config-pmap-c)# 
+2018-02-26 17:55:45 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-02-26 17:56:18 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 17:56:20 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 17:56:20 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 17:56:20 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 17:56:20 com.wulei.utils.SwitchSSHUtils-INFO :  conf t
+ciscoasa(config)# 
+2018-02-26 17:56:24 com.wulei.utils.SwitchSSHUtils-INFO :  show run | grep flow-export
+flow-export destination inside 10.30.2.95 2055
+flow-export destination inside 10.30.2.135 2055
+flow-export destination inside 10.30.2.91 2055
+flow-export destination inside 10.30.2.99 2055
+flow-export destination inside 10.30.2.115 2055
+  flow-export event-type all destination 10.30.2.91 10.30.2.99 10.30.2.135 10.30.2.115 10.30.2.95
+ciscoasa(config)# 
+2018-02-26 17:56:26 com.wulei.utils.SwitchSSHUtils-INFO :  flow-export destination inside 10.30.2.5 2055
+ERROR: A maximum of 5 flow-export destinations can be configured
+ciscoasa(config)# 
+2018-02-26 17:56:45 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 17:56:48 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 17:56:48 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 17:56:48 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 17:56:48 com.wulei.utils.SwitchSSHUtils-INFO :  conf t
+ciscoasa(config)# 
+2018-02-26 17:56:49 com.wulei.utils.SwitchSSHUtils-INFO :  show run | grep flow-export
+flow-export destination inside 10.30.2.95 2055
+flow-export destination inside 10.30.2.135 2055
+flow-export destination inside 10.30.2.91 2055
+flow-export destination inside 10.30.2.99 2055
+flow-export destination inside 10.30.2.115 2055
+  flow-export event-type all destination 10.30.2.91 10.30.2.99 10.30.2.135 10.30.2.115 10.30.2.95
+ciscoasa(config)# 
+2018-02-26 17:56:51 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-02-26 17:57:01 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 17:57:04 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 17:57:04 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 17:57:04 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 17:57:04 com.wulei.utils.SwitchSSHUtils-INFO :  conf t
+ciscoasa(config)# 
+2018-02-26 17:57:05 com.wulei.utils.SwitchSSHUtils-INFO :  show run | grep flow-export
+flow-export destination inside 10.30.2.95 2055
+flow-export destination inside 10.30.2.135 2055
+flow-export destination inside 10.30.2.91 2055
+flow-export destination inside 10.30.2.99 2055
+flow-export destination inside 10.30.2.115 2055
+  flow-export event-type all destination 10.30.2.91 10.30.2.99 10.30.2.135 10.30.2.115 10.30.2.95
+ciscoasa(config)# 
+2018-02-26 17:57:07 com.wulei.utils.SwitchSSHUtils-INFO :  flow-export destination inside 10.30.2.96 2055
+ERROR: A maximum of 5 flow-export destinations can be configured
+ciscoasa(config)# 
+2018-02-26 17:57:23 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 17:57:25 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 17:57:25 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 17:57:25 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 17:57:25 com.wulei.utils.SwitchSSHUtils-INFO :  conf t
+ciscoasa(config)# 
+2018-02-26 17:57:27 com.wulei.utils.SwitchSSHUtils-INFO :  show run | grep flow-export
+flow-export destination inside 10.30.2.95 2055
+flow-export destination inside 10.30.2.135 2055
+flow-export destination inside 10.30.2.91 2055
+flow-export destination inside 10.30.2.99 2055
+flow-export destination inside 10.30.2.115 2055
+  flow-export event-type all destination 10.30.2.91 10.30.2.99 10.30.2.135 10.30.2.115 10.30.2.95
+ciscoasa(config)# 
+2018-02-26 17:57:29 com.wulei.utils.SwitchSSHUtils-INFO :  class-map netflow
+ciscoasa(config-cmap)# 
+2018-02-26 17:57:29 com.wulei.utils.SwitchSSHUtils-INFO :  match access-list EC
+ciscoasa(config-cmap)# 
+2018-02-26 17:57:29 com.wulei.utils.SwitchSSHUtils-INFO :  policy-map netflow
+ciscoasa(config-pmap)# 
+2018-02-26 17:57:29 com.wulei.utils.SwitchSSHUtils-INFO :  class netflow
+ciscoasa(config-pmap-c)# 
+2018-02-26 17:57:29 com.wulei.utils.SwitchSSHUtils-INFO :  no flow-export event-type all destination  10.30.2.95
+ciscoasa(config-pmap-c)# 
+2018-02-26 17:57:29 com.wulei.utils.SwitchSSHUtils-INFO :  no flow-export destination inside 10.30.2.95 2055
+ciscoasa(config)# 
+2018-02-26 17:57:29 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
