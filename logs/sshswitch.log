@@ -1,0 +1,633 @@
+2018-01-03 11:04:28 [com.wulei.utils.SwitchSSHUtil]-[INFO] - 
+开始连接ASA
+2018-01-03 11:04:30 [com.wulei.utils.SwitchSSHUtil]-[INFO] - ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-03 11:04:30 [com.wulei.utils.SwitchSSHUtil]-[INFO] -  ***********
+ciscoasa# 
+2018-01-03 11:04:30 [com.wulei.utils.SwitchSSHUtil]-[INFO] -  terminal pager 0
+ciscoasa# 
+2018-01-03 11:04:33 [com.wulei.utils.SwitchSSHUtil]-[INFO] -  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6498                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 2258478                Bytes Rx     : 31191572
+Login Time   : 15:42:05 UTC Tue Jan 2 2018
+Duration     : 2h:15m:33s
+ciscoasa# 
+2018-01-03 11:04:36 [com.wulei.utils.SwitchSSHUtil]-[INFO] - 关闭连接
+
+
+
+
+2018-01-03 17:36:55 [com.wulei.utils.SwitchSSHUtil]-[INFO] - 
+开始连接ASA
+2018-01-03 17:36:58 [com.wulei.utils.SwitchSSHUtil]-[INFO] - ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-03 17:36:58 [com.wulei.utils.SwitchSSHUtil]-[INFO] -  ***********
+ciscoasa# 
+2018-01-03 17:36:58 [com.wulei.utils.SwitchSSHUtil]-[INFO] -  terminal pager 0
+ciscoasa# 
+2018-01-03 17:37:01 [com.wulei.utils.SwitchSSHUtil]-[INFO] -  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6503                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 1998337                Bytes Rx     : 27491295
+Login Time   : 22:15:40 UTC Tue Jan 2 2018
+Duration     : 2h:14m:27s
+ciscoasa# 
+2018-01-03 17:37:05 [com.wulei.utils.SwitchSSHUtil]-[INFO] - 关闭连接
+
+
+
+
+2018-01-03 17:37:59 [com.wulei.utils.SwitchSSHUtil]-[INFO] - 
+开始连接ASA
+2018-01-03 17:38:02 [com.wulei.utils.SwitchSSHUtil]-[INFO] - ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-03 17:38:02 [com.wulei.utils.SwitchSSHUtil]-[INFO] -  ***********
+ciscoasa# 
+2018-01-03 17:38:02 [com.wulei.utils.SwitchSSHUtil]-[INFO] -  terminal pager 0
+ciscoasa# 
+2018-01-03 17:38:05 [com.wulei.utils.SwitchSSHUtil]-[INFO] -  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6503                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 2004260                Bytes Rx     : 27514481
+Login Time   : 22:15:40 UTC Tue Jan 2 2018
+Duration     : 2h:15m:31s
+ciscoasa# 
+2018-01-03 17:38:08 [com.wulei.utils.SwitchSSHUtil]-[INFO] - 关闭连接
+
+
+
+
+2018-01-04 13:29:21 com.wulei.utils.SwitchSSHUtil-INFO - 
+开始连接ASA
+2018-01-04 13:29:24 com.wulei.utils.SwitchSSHUtil-INFO - ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-04 13:29:24 com.wulei.utils.SwitchSSHUtil-INFO -  ***********
+ciscoasa# 
+2018-01-04 13:29:24 com.wulei.utils.SwitchSSHUtil-INFO -  terminal pager 0
+ciscoasa# 
+2018-01-04 13:29:27 com.wulei.utils.SwitchSSHUtil-INFO -  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6513                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 238862                 Bytes Rx     : 5053622
+Login Time   : 19:52:23 UTC Wed Jan 3 2018
+Duration     : 0h:30m:14s
+ciscoasa# 
+2018-01-04 13:29:33 com.wulei.utils.SwitchSSHUtil-INFO - 关闭连接
+
+
+
+
+2018-01-04 13:30:18 com.wulei.utils.SwitchSSHUtil-INFO : 
+开始连接ASA
+2018-01-04 13:30:21 com.wulei.utils.SwitchSSHUtil-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-04 13:30:21 com.wulei.utils.SwitchSSHUtil-INFO :  ***********
+ciscoasa# 
+2018-01-04 13:30:21 com.wulei.utils.SwitchSSHUtil-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-04 13:30:24 com.wulei.utils.SwitchSSHUtil-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6513                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 238914                 Bytes Rx     : 5053702
+Login Time   : 19:52:23 UTC Wed Jan 3 2018
+Duration     : 0h:31m:11s
+ciscoasa# 
+2018-01-04 13:30:30 com.wulei.utils.SwitchSSHUtil-INFO : 关闭连接
+
+
+
+
+2018-01-11 13:59:12 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-11 13:59:15 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-11 13:59:15 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-11 13:59:15 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-11 13:59:18 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6640                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 6900520                Bytes Rx     : 20371607
+Login Time   : 04:54:52 UTC Wed Jan 10 2018
+Duration     : 15h:58m:07s
+ciscoasa# 
+2018-01-11 13:59:26 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-11 14:04:38 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-11 14:04:40 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-11 14:04:40 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-11 14:04:40 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-11 14:04:43 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6640                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 6961312                Bytes Rx     : 20605143
+Login Time   : 04:54:52 UTC Wed Jan 10 2018
+Duration     : 16h:03m:32s
+ciscoasa# 
+2018-01-11 14:04:48 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-13 21:02:25 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-13 21:02:29 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-13 21:02:29 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-13 21:02:29 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-13 21:02:32 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6652                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 1627775                Bytes Rx     : 1760905
+Login Time   : 22:34:17 UTC Fri Jan 12 2018
+Duration     : 5h:22m:07s
+ciscoasa# 
+2018-01-13 21:02:38 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-15 15:14:21 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-15 15:14:23 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-15 15:14:24 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-15 15:14:24 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-15 15:14:27 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6665                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 68816                  Bytes Rx     : 465299
+Login Time   : 22:03:01 UTC Sun Jan 14 2018
+Duration     : 0h:05m:27s
+ciscoasa# 
+2018-01-15 15:14:31 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-15 15:33:50 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-15 15:33:54 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-15 15:33:54 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-15 15:33:54 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-15 15:33:57 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6667                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 0                      Bytes Rx     : 0
+Login Time   : 22:27:29 UTC Sun Jan 14 2018
+Duration     : 0h:00m:29s
+ciscoasa# 
+2018-01-15 15:33:57 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-15 15:40:22 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-15 15:40:25 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-15 15:40:25 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-15 15:40:25 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-15 15:40:28 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6667                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 23108                  Bytes Rx     : 100840
+Login Time   : 22:27:29 UTC Sun Jan 14 2018
+Duration     : 0h:07m:00s
+ciscoasa# 
+2018-01-15 15:40:28 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-15 15:40:51 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-15 15:40:53 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-15 15:40:53 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-15 15:40:53 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-15 15:40:56 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6667                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 23108                  Bytes Rx     : 100892
+Login Time   : 22:27:29 UTC Sun Jan 14 2018
+Duration     : 0h:07m:29s
+ciscoasa# 
+2018-01-15 15:41:01 com.wulei.utils.SwitchSSHUtils-INFO : 邮件发送成功
+2018-01-15 15:41:01 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-18 09:51:21 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-18 09:51:25 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-18 09:51:25 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-18 09:51:25 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-18 09:51:28 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6702                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 16772253               Bytes Rx     : 47904240
+Login Time   : 08:53:37 UTC Tue Jan 16 2018
+Duration     : 1d 7h:52m:06s
+ciscoasa# 
+2018-01-18 09:51:28 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-18 09:52:03 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-18 09:52:05 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-18 09:52:05 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-18 09:52:05 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-18 09:52:08 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6702                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 17017712               Bytes Rx     : 47969913
+Login Time   : 08:53:37 UTC Tue Jan 16 2018
+Duration     : 1d 7h:52m:47s
+ciscoasa# 
+2018-01-18 14:43:18 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-18 14:43:22 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-18 14:43:22 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-18 14:43:22 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-18 14:43:25 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6702                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 20627528               Bytes Rx     : 76515301
+Login Time   : 08:53:37 UTC Tue Jan 16 2018
+Duration     : 1d 12h:44m:04s
+ciscoasa# 
+2018-01-18 14:43:30 com.wulei.utils.SwitchSSHUtils-INFO : 邮件发送成功
+2018-01-18 14:43:30 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-22 10:04:02 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-22 10:04:06 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-22 10:04:06 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-22 10:04:06 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-22 10:04:09 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6709                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 14043207               Bytes Rx     : 19203439
+Login Time   : 20:47:03 UTC Fri Jan 19 2018
+Duration     : 1d 20h:11m:42s
+ciscoasa# 
+2018-01-22 10:04:12 com.wulei.utils.SwitchSSHUtils-INFO : 邮件发送成功
+2018-01-22 10:04:12 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-22 10:25:01 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-22 10:25:05 com.wulei.utils.SwitchSSHUtils-INFO : 锟斤拷锟轿拷锟�
+2018-01-22 10:25:05 com.wulei.utils.SwitchSSHUtils-INFO : 锟斤拷锟轿拷锟�
+2018-01-22 10:25:05 com.wulei.utils.SwitchSSHUtils-INFO : 锟斤拷锟轿拷锟�
+2018-01-22 10:25:08 com.wulei.utils.SwitchSSHUtils-INFO : 锟斤拷锟轿拷锟�
+2018-01-22 10:25:11 com.wulei.utils.SwitchSSHUtils-INFO : 邮件发送成功
+2018-01-22 10:25:11 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-22 10:26:25 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-22 10:26:27 com.wulei.utils.SwitchSSHUtils-INFO : 锟斤拷锟轿拷锟�
+2018-01-22 10:26:27 com.wulei.utils.SwitchSSHUtils-INFO : 锟斤拷锟轿拷锟�
+2018-01-22 10:26:27 com.wulei.utils.SwitchSSHUtils-INFO : 锟斤拷锟轿拷锟�
+2018-01-22 10:26:30 com.wulei.utils.SwitchSSHUtils-INFO : 锟斤拷锟轿拷锟�
+2018-01-22 10:49:19 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-22 10:49:22 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:49:22 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:49:22 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:49:25 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:49:29 com.wulei.utils.SwitchSSHUtils-INFO : 邮件发送成功
+2018-01-22 10:49:29 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-22 10:49:58 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-22 10:50:00 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:50:00 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:50:00 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:50:03 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:50:03 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-22 10:50:54 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-22 10:50:57 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-22 10:50:57 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-22 10:50:57 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-22 10:51:00 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6709                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 15001306               Bytes Rx     : 27246078
+Login Time   : 20:47:03 UTC Fri Jan 19 2018
+Duration     : 1d 20h:58m:33s
+ciscoasa# 
+2018-01-22 10:51:00 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-22 10:52:09 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-22 10:52:11 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-22 10:52:41 com.wulei.utils.SwitchSSHUtils-INFO : 发命令异常:write({}){}w^14cbsWITLwExpect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.MantisVPN.main(MantisVPN.java:30)
+2018-01-22 10:52:41 com.wulei.utils.SwitchSSHUtils-INFO : 命令执行异常
+2018-01-22 10:53:11 com.wulei.utils.SwitchSSHUtils-INFO : 发命令异常:write({}){}terminal pager 0Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.MantisVPN.main(MantisVPN.java:31)
+2018-01-22 10:53:11 com.wulei.utils.SwitchSSHUtils-INFO : 命令执行异常
+2018-01-22 10:53:44 com.wulei.utils.SwitchSSHUtils-INFO : 发命令异常:write({}){}show vpn-sessiondb l2lExpect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.MantisVPN.main(MantisVPN.java:33)
+2018-01-22 10:53:44 com.wulei.utils.SwitchSSHUtils-INFO : 命令执行异常
+2018-01-22 10:54:14 com.wulei.utils.SwitchSSHUtils-INFO : 发命令异常:write({}){}show vpn-sessiondb l2lExpect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.MantisVPN.main(MantisVPN.java:34)
+2018-01-22 10:54:17 com.wulei.utils.SwitchSSHUtils-INFO : 邮件发送成功
+2018-01-22 10:54:17 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-22 10:55:25 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-22 10:55:27 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-22 10:55:57 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}w^14cbsWITLwExpect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.MantisVPN.main(MantisVPN.java:30)
+2018-01-22 10:55:57 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:56:27 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}terminal pager 0Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.MantisVPN.main(MantisVPN.java:31)
+2018-01-22 10:56:27 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:56:42 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-22 10:56:45 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-22 10:57:15 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}w^14cbsWITLwExpect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.MantisVPN.main(MantisVPN.java:30)
+2018-01-22 10:57:15 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:57:45 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}terminal pager 0Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.MantisVPN.main(MantisVPN.java:31)
+2018-01-22 10:57:45 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:58:18 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}show vpn-sessiondb l2lExpect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.MantisVPN.main(MantisVPN.java:33)
+2018-01-22 10:58:18 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常
+2018-01-22 10:58:48 com.wulei.utils.SwitchSSHUtils-INFO : 交换机返回异常:write({}){}show vpn-sessiondb l2lExpect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+net.sf.expectit.ExpectIOException: Expect operation fails (timeout: 30000 ms) for matcher: regexp('#')
+	at net.sf.expectit.ExpectImpl.expectIn(ExpectImpl.java:106)
+	at net.sf.expectit.AbstractExpectImpl.expectIn(AbstractExpectImpl.java:57)
+	at net.sf.expectit.AbstractExpectImpl.expect(AbstractExpectImpl.java:61)
+	at com.wulei.utils.SwitchSSHUtils.write(SwitchSSHUtils.java:179)
+	at com.wulei.cisco.MantisVPN.main(MantisVPN.java:34)
+2018-01-22 10:58:48 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-01-22 11:01:36 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-01-22 11:01:38 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-01-22 11:01:38 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-01-22 11:01:38 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-01-22 11:01:41 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 6709                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 15096354               Bytes Rx     : 27705744
+Login Time   : 20:47:03 UTC Fri Jan 19 2018
+Duration     : 1d 21h:09m:14s
+ciscoasa# 
+2018-01-22 11:01:41 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-02-05 14:10:04 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-05 14:11:11 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-05 14:11:13 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-05 14:11:16 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-05 14:11:25 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 776                    IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 0                      Bytes Rx     : 0
+Login Time   : 20:55:53 UTC Sun Feb 4 2018
+Duration     : 0h:00m:08s
+ciscoasa# 
+2018-02-05 14:12:09 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
+2018-02-26 14:33:28 com.wulei.utils.SwitchSSHUtils-INFO : 
+开始连接ASA
+2018-02-26 14:33:32 com.wulei.utils.SwitchSSHUtils-INFO : ##FortiSIEM-SH Admin only##
+##FortiSIEM-SH Admin only##
+Type help or '?' for a list of available commands.
+ciscoasa> en
+Password: 
+2018-02-26 14:33:32 com.wulei.utils.SwitchSSHUtils-INFO :  ***********
+ciscoasa# 
+2018-02-26 14:33:32 com.wulei.utils.SwitchSSHUtils-INFO :  terminal pager 0
+ciscoasa# 
+2018-02-26 14:33:35 com.wulei.utils.SwitchSSHUtils-INFO :  show vpn-sessiondb l2l
+
+Session Type: LAN-to-LAN
+
+Connection   : 208.91.114.30
+Index        : 1189                   IP Addr      : 208.91.114.30
+Protocol     : IKE IPsec
+Encryption   : 3DES                   Hashing      : MD5
+Bytes Tx     : 145962                 Bytes Rx     : 6685310
+Login Time   : 20:50:48 UTC Sun Feb 25 2018
+Duration     : 0h:29m:12s
+ciscoasa# 
+2018-02-26 14:33:35 com.wulei.utils.SwitchSSHUtils-INFO : 关闭连接
