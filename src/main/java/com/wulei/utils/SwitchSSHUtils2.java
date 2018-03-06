@@ -15,7 +15,7 @@ import net.sf.expectit.Expect;
 import net.sf.expectit.ExpectBuilder;  
   
 /** 
- * SSH锟斤拷锟斤拷 
+ * SSH
  * @author Joyce.Luo 
  * @date 2016-8-8 锟斤拷锟斤拷09:12:51 
  * @version V3.0 
